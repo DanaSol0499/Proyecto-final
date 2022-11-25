@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Muebles</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" type="text/css" href="estilos.css" title="style" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<!--link href="bootstrap.min.css" rel="stylesheet"-->
+</head>
+<body>
+	<div class="container text-center">
+		<div id="Title" class="row my-3">
+			<div class="col">
+				<p class="h1">Tienda de <span Class="text-primary">Muebles</span></p>
+			</div>
+		</div>
+		<div id="Navigation" class="row">
+			<div class="col">
+				<nav class="navbar navbar-expand-md navbar-dark bg-dark bg-gradient mb-3">
+					<div class="container-fluid">
+    					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    					</button>
+					  <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<button class="btn btn-m btn-secondary" type="button">Inicio</button>
+						  </li>
+						</ul>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<button class="btn btn-m btn-secondary" type="button">Nosotros</button>
+						  </li>
+						</ul>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<button class="btn btn-m btn-secondary" type="button">Tienda</button>
+						  </li>
+						</ul>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<button class="btn btn-m btn-secondary" type="button">Blog</button>
+						  </li>
+						</ul>
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<button class="btn btn-m btn-secondary" type="button">Galeria</button>
+						  </li>
+						</ul>
+						<ul class="navbar-nav me-0 mb-2 mb-lg-0">
+						  <li class="nav-item">
+							<button class="btn btn-m btn-secondary" type="button">Contacto</button>
+						  </li>
+						</ul>
+					  </div>
+					</div>
+				</nav>
+			</div>
+		</div>
+		<div class="row mb-4">
+			<div class="col">
+				<img src="../PROYECTO-FINAL/principal.jpg" class="img-fluid">
+			</div>
+		</div>
+		<div class="row mb-3">
+			<div class="col">
+				<p class="h2">Nuestros Productos</p>
+			</div>
+		</div>
+		<div class="row mb-5 g-3">
+			<div class="col-12 col-sm-6 col-lg-12">
+				<div class="card">
+					<div class="row g-0">
+					  <div class="col-12 col-lg-8">
+						<picture>
+							<source media="(min-width:992px)" style="height: auto;">
+							<img src="../PROYECTO-FINAL/producto1.jpg" class="img-fluid rounded-start" alt="...">
+						  </picture>
+					  </div>
+					  <div class="col-12 col-lg-4 text-bg-secondary">
+						<div class="card-body">
+							<p>Producto 1<p>
+							<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+							<p class="card-text fw-bold">$12,000.00</p>
+							<a href="#" class="btn btn-success bg-gradient" data-bs-toggle="modal" data-bs-target="#modal">Agregar al carrito</a>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-6">
+				<div class="card">
+					<img src="../PROYECTO-FINAL/producto2.jpg" class="card-img-top" alt="...">
+					<div class="card-body text-bg-secondary">
+					  <p>Producto 2<p>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					  <p class="card-text fw-bold">$12,000.00</p> 
+					  <a href="#" type="button" class="btn btn-success bg-gradient" data-bs-toggle="modal" data-bs-target="#modal">Agregar al carrito</a>
+					</div>
+				  </div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-6">
+				<div class="card">
+					<img src="../PROYECTO-FINAL/producto3.jpg" class="card-img-top" alt="...">
+					<div class="card-body text-bg-secondary">
+					  <p>Producto 3<p>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+					  <p class="card-text fw-bold">$12,000.00</p> 
+					  <a href="#" class="btn btn-success bg-gradient" data-bs-toggle="modal" data-bs-target="#modal">Agregar al carrito</a>
+					</div>
+				  </div>
+			</div>
+			<div id="Product4" class="col-12 col-sm-6 col-lg-4">
+				<div class="card">
+					<img src="../PROYECTO-FINAL/producto4.jpg" class="card-img-top" alt="...">
+					<div class="card-body text-bg-secondary align-self-end">
+					  <p>Producto 4<p>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					  <p class="card-text fw-bold">$12,000.00</p> 
+					  <a href="#" class="btn btn-success bg-gradient" data-bs-toggle="modal" data-bs-target="#modal">Agregar al carrito</a>
+					</div>
+				  </div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="card">
+					<img src="../PROYECTO-FINAL/producto5.jpg" class="card-img-top" alt="...">
+					<div class="card-body text-bg-secondary">
+					  <p>Producto 5<p>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					  <p class="card-text fw-bold">$12,000.00</p> 
+					  <a href="#" class="btn btn-success bg-gradient" data-bs-toggle="modal" data-bs-target="#modal">Agregar al carrito</a>
+					</div>
+				  </div>
+			</div>
+			<div class="col-12 col-sm-6 col-lg-4">
+				<div class="card">
+					<img src="../PROYECTO-FINAL/producto6.jpg" class="card-img-top" alt="...">
+					<div class="card-body text-bg-secondary">
+					  <p>Producto 6<p>
+					  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					  <p class="card-text fw-bold">$12,000.00</p> 
+					  <a href="#" class="btn btn-success bg-gradient" data-bs-toggle="modal" data-bs-target="#modal">Agregar al carrito</a>
+					</div>
+				  </div>
+			</div>
+		</div>
+		<div class="row mb-3">
+			<div class="col">
+				<p class="h2">Categorias Productos<p>
+			</div>
+		</div>
+		<div id="categorias" class="row mb-4 g-3">
+			<div class="col-12 col-sm-6 col-md-4">
+				<div class="card border-0 overflow-hidden">
+					<img src="../PROYECTO-FINAL/categoria1.jpg" class="card-img-top rounded" alt="...">
+					<div class="card-body">
+					  <p class="h5">Oficina<p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 overflow-hidden">
+				<div class="card border-0">
+					<img src="../PROYECTO-FINAL/categoria2.jpg" class="card-img-top rounded" alt="...">
+					<div class="card-body">
+					  <p class="h5">Hogar<p>
+					</div>
+				  </div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 mx-auto overflow-hidden">
+				<div class="card border-0">
+					<img src="../PROYECTO-FINAL/categoria3.jpg" class="card-img-top rounded" alt="...">
+					<div class="card-body">
+					  <p class="h5">Cocina<p>
+					</div>
+				  </div>
+			</div>
+		</div>
+		<div id="Footer" class="row mb-4 g-5">
+			<div class="col-12 col-sm-6 col-md-4">
+				<p class="h3">Categorias<p>
+				<ul class="list-unstyled mb-0">
+					<li><a>Cocina</a></li>
+					<li><a>Oficina</a></li>
+					<li><a>Jardin</a></li>
+					<li><a>Cochera</a></li>
+					<li><a>Dormitorios</a></li>
+				  </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4">
+				<p class="h3">Sobre Nosotros<p>
+				<ul class="list-unstyled mb-0">
+					<li><a>Nuestra Historia</a></li>
+					<li><a>Misión, Visión, Valores</a></li>
+					<li><a>Carreras</a></li>
+					<li><a>Política de Privacidad</a></li>
+					<li><a>Términos del Servicio</a></li>
+				  </ul>
+			</div>
+			<div class="col-12 col-md-4">
+				<p class="h3">Soporte<p>
+				<ul class="list-unstyled mb-0">
+					<li><a>Preguntas Frecuentes</a></li>
+					<li><a>Ayuda en línea</a></li>
+					<li><a>Confianza y Seguridad</a></li>
+				  </ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col">
+				<a>Todos los derechos reservados. Tienda Muebles</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
+</body>
+</html>

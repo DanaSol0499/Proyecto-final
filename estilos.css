@@ -1,0 +1,40 @@
+
+#Navigation .collapse button {min-width: 100px;}
+
+#Product4 .card {min-height: 100%;}
+
+
+#categorias img {
+    -webkit-transition:  -webkit-transform .2s ease-out;
+    -moz-transition: -moz-transform .2s ease-out;
+    -o-transition: -o-transform .2s ease-out;
+    -ms-transition: -ms-transform .2s ease-out; 
+    transition: transform .2s ease-out; 
+}
+#categorias img:hover {
+   -webkit-transform:scale(1.2);
+   -moz-transform:scale(1.2);
+   -o-transform:scale(1.2);
+   transform:scale(1.2);
+}
+
+span{
+    color: #037BC0;
+}
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
